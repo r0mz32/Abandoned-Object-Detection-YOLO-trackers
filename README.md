@@ -1,5 +1,5 @@
 # Search for the optimal flight route for a drone based on the analysis of aerial photos
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dv4r1Hqv3vU_vInd9UcR4pWt6xAhYrMr?usp=sharing)
+[![Colab](https://colab.research.google.com/github.com/r0mz32/Abandoned-Object-Detection-YOLO-trackers/blob/main/AbObDet.ipynb)
 
 The repo considers the use of two detectors of the YOLO family and several trackers.
 After you search for objects in the frame and give them an id, you search for objects that are in close proximity to the person and can't be left behind. There are several methods for searching for such items, but the two most interesting ones should be described separately. First, at least one pixel of a person is located in a circle built around the middle of the lower edge of the bounding box, the radius of which depends on the width of the object. The second is the Euclidean distance between the centers of the bounding boxes of a person and an object that is less than the specified value, depending on the width of the object multiplied by a factor. Items that do not pass the inspection are considered suspicious and are calculated individually for each frame.
