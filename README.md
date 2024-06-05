@@ -1,4 +1,4 @@
-# Search for the optimal flight route for a drone based on the analysis of aerial photos
+# The algorithm for detecting abandoned objects using YOLO(v5/v8) and trackers (ByteTrack, StrongSORT, SORT)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/r0mz32/Abandoned-Object-Detection-YOLO-trackers/blob/main/AbObDet.ipynb)
 
 The repo considers the use of two detectors of the YOLO family and several trackers.
